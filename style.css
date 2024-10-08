@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: center; 
+    background-color: rgba(16, 106, 122, 0.573);
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container{
+    background-color: darkkhaki;
+    border: 3px solid black;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+.ques{
+    padding: 20px 0;
+}
+
+.ques h4{
+    font-size: 20px;
+
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+    color: white;
+    background-color: grey;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn{
+    background-color: white;
+    color: black;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
